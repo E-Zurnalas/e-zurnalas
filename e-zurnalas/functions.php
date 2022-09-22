@@ -28,9 +28,6 @@ function e_zurnalas_setup() {
 		*/
 	load_theme_textdomain( 'e-zurnalas', get_template_directory() . '/languages' );
 
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
-
 	/*
 		* Let WordPress manage the document title.
 		* By adding theme support, we declare that this theme does not use a
@@ -69,21 +66,7 @@ function e_zurnalas_setup() {
 			'script',
 		)
 	);
-
-	// Set up the WordPress core custom background feature.
-	add_theme_support(
-		'custom-background',
-		apply_filters(
-			'e_zurnalas_custom_background_args',
-			array(
-				'default-color' => 'ffffff',
-				'default-image' => '',
-			)
-		)
-	);
-
-	// Add theme support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
+	
 
 	/**
 	 * Add support for core custom logo.
