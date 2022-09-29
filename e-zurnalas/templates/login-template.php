@@ -2,7 +2,11 @@
 /* Template name: Login */
 
 get_header(); ?>
-
+    <script type="text/javascript">
+        jQuery("form").on("submit", function (e) {
+            e.preventDefault();
+        });
+    </script>
 <div class="login-section">
     <div class="first-box">
     </div>
