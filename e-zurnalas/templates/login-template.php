@@ -2,13 +2,17 @@
 /* Template name: Login */
 
 get_header(); ?>
-
+    <script type="text/javascript">
+        jQuery("form").on("submit", function (e) {
+            e.preventDefault();
+        });
+    </script>
 <div class="login-section">
     <div class="first-box">
     </div>
     <div class="second-box">
         <div class="login-container">
-            <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.png"; ?>" width="240" height="60" alt="">
+            <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.png"; ?>" width="240" height="60">
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
