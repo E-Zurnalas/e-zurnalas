@@ -7,11 +7,14 @@ get_header(); ?>
     <div id="admin-menu-wrap">
         <div id="admin-page-back"></div>
         <div id="admin-page-menu">
-            <?php
-            wp_nav_menu( array(
-                'menu' => 'Project Nav'
-            ) );
-            ?>
+        <?php
+        wp_nav_menu(
+            array(
+            'theme_location' => 'admin_page_menu',
+            'menu_id'        => 'admin_panel_menu',
+            )
+        );
+        ?>
         </div>
     </div>
 
