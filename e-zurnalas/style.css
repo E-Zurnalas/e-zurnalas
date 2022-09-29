@@ -983,7 +983,7 @@ textarea {
 }
 
 .first-box {
-	background-image: url("/assets/images/login_back.jpg");
+	background-image: url("...assets/images/login_back.jpg");
 }
 
 .second-box {
