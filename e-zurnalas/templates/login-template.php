@@ -12,7 +12,7 @@ get_header(); ?>
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
-            <form id="login-form">
+            <form method="post" action="" id="login-form">
                 <p class="form-row">
                     <input id="username" name="username" type="text" autocomplete="username" placeholder="El. Paštas">
                 </p>
