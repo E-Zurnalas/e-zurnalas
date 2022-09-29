@@ -751,7 +751,7 @@ display: block;
 
 .post,
 .page {
-margin: 0 0 1.5em;
+margin: 0;
 }
 
 .updated:not(.published) {
@@ -761,7 +761,7 @@ display: none;
 .page-content,
 .entry-content,
 .entry-summary {
-margin: 0;
+margin: 1.5em 0 0;
 }
 
 .page-links {
