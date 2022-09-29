@@ -1,7 +1,7 @@
 (function($) {
 	$(document).ready(function(){
-		$('#login-form').on("submit", function(event){
-			event.preventDefault();
+		$('#login').click(function (e) {
+			e.preventDefault();
 			alert("Submitted");
 		});
 	});

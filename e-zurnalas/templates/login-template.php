@@ -21,6 +21,7 @@ get_header(); ?>
                 </p>
                 <p class="form-row last-row">
                     <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
+                    <button class="submit-btn" id="login"><?php _e('Prisijungti', 'e-zurnalas'); ?></button>
                     <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a>
                 </p>
             </form>
