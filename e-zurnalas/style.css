@@ -1070,3 +1070,14 @@ color: #43425D;
 .second-box .login-container input:focus{
 	outline: none;
 }
+
+/* Admin User Panel
+--------------------------------------------- */
+#admin-page-back {
+	background-color: #43425D;
+	position: fixed;
+	top: 0;
+	bottom: -120px;
+	z-index: 1;
+	width: 260px; 
+}
