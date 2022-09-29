@@ -1,7 +1,6 @@
-(function($) {
-	$(document).ready(function(){
-		$('.register-btn').click(function () {
-			alert("Submitted");
-		});
+$(document).ready(function(){
+	$('.register-btn').click(function () {
+		alert("Submitted");
 	});
 });
+
