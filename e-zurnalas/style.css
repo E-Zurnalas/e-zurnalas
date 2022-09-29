@@ -980,7 +980,6 @@ textarea {
 
 .first-box, .second-box {
 	width: 50%;
-	height: 100vh;
 }
 
 .first-box {
@@ -996,4 +995,5 @@ textarea {
 
 .second-box .welcome-text {
 	text-align: center;
+	font-size: 15px;
 }
