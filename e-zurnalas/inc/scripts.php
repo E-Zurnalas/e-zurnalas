@@ -7,7 +7,7 @@ function e_zurnalas_scripts() {
 	
 	wp_enqueue_script( 'e-zurnalas-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), _S_VERSION, true );
 	
-	if(is_page_template('login-template.php')) {
+	if(is_page_template('templates/login-template.php')) {
 		wp_enqueue_script( 'login', get_template_directory_uri() . '/assets/js/login.js', array(), _S_VERSION, true );
 	}
 	
