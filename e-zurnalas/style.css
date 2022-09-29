@@ -997,7 +997,8 @@ text-align: center;
 
 .second-box .welcome-text {
 text-align: center;
-font-size: 15px;
+font-size: 18px;
+	color: #4D4F5C;
 }
 
 .second-box .login-container input[type=text]:focus {
@@ -1022,6 +1023,8 @@ border-left: 0px;
 border-right: 0px;
 width: 100%;
 margin: 10px 0px;
+	padding: 5px;
+	font-size: 15px;
 }
 .submit-btn {
 background-color: #43425D;
