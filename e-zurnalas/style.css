@@ -999,6 +999,7 @@ text-align: center;
 text-align: center;
 font-size: 18px;
 	color: #4D4F5C;
+	margin-top: 30px;
 }
 
 .second-box .login-container input[type=text]:focus {
