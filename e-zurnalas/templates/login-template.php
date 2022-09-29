@@ -14,9 +14,11 @@ get_header(); ?>
             </p>
             <form id="login-form">
                 <p class="form-row">
+            <form method="post" id="login-form">
+                <p class="form-row input-login-wrap">
                     <input id="username" name="username" type="text" autocomplete="username" placeholder="El. Paštas">
                 </p>
-                <p class="form-row">
+                <p class="form-row input-login-wrap-pass">
                     <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Slaptažodis">
                 </p>
                 <p class="form-row last-row">
