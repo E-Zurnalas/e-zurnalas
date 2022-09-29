@@ -984,6 +984,7 @@ textarea {
 
 .first-box {
 	background-image: url("../e-zurnalas/assets/images/login_back.jpg");
+	background-size: cover;
 }
 
 .second-box {
