@@ -12,7 +12,7 @@ get_header(); ?>
     </div>
     <div class="second-box">
         <div class="login-container">
-            <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.png"; ?>" width="240" height="60">
+            <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.png"; ?>" width="240" height="60" alt="">
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
