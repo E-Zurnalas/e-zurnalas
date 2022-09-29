@@ -110,3 +110,7 @@ add_action('after_setup_theme', 'remove_admin_bar');
 function remove_admin_bar() {
         show_admin_bar(false);
 }
+
+register_nav_menus( array(
+    'admin_page_menu' => __( 'Admin Panel Menu', 'e-zurnalas' ),
+) );
