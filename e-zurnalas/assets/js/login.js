@@ -1,9 +1,9 @@
 (function($) {
 	$( document ).ready(function() {
 
-		$( "#login-form submit" ).click(function( e ) {
-			e.preventDefault();
+		$( "#login-form" ).submit(function( e ) {
 			alert('submitted');
+			e.preventDefault();
 		});
 	});
 });
