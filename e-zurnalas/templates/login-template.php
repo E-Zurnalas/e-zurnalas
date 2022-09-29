@@ -26,7 +26,6 @@ get_header(); ?>
                     <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a>
                 </p>
             </form>
-            <?php wp_login_form(); ?>
         </div>
     </div>
 </div>
