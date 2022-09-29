@@ -1073,11 +1073,15 @@ color: #43425D;
 
 /* Admin User Panel
 --------------------------------------------- */
-#admin-page-back {
+#admin-menu-wrap #admin-page-back {
 	background-color: #43425D;
 	position: fixed;
 	top: 0;
 	bottom: -120px;
 	z-index: 1;
-	width: 260px; 
+	width: 260px;
+}
+#admin-menu-wrap #admin-page-menu {
+	z-index: 9999;
+	position: fixed;
 }
