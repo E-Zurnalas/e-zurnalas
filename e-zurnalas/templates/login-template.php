@@ -23,7 +23,7 @@ get_header(); ?>
                 <p class="form-row input-login-wrap-pass">
                     <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Slaptažodis">
                 </p>
-                <p class="form-row last-row">
+                <p class="form-row last-row buttons-login">
                     <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
                     <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a>
                 </p>
