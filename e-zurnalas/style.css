@@ -1026,7 +1026,7 @@ margin: 10px 0px;
 	padding: 5px;
 	font-size: 15px;
 }
-.submit-btn {
+.second-box .login-container .submit-btn {
 background-color: #43425D;
 color: #Fff;
 border-radius: 5px;
@@ -1036,12 +1036,12 @@ border-color: #43425D;
 float: left;
 }
 
-.submit-btn:hover {
+.second-box .login-container .submit-btn:hover {
 background-color: #fff;
 color: #43425D;
 }
 
-.register-btn {
+.second-box .login-container .register-btn {
 	background-color: #fff;
 	color: #43425D;
 	border-radius: 5px;
@@ -1053,7 +1053,11 @@ color: #43425D;
 	cursor: pointer;
 	border: 1px solid;
 }
-.register-btn:hover {
+.second-box .login-container .register-btn:hover {
 	background-color: #43425D;
 	color: #fff;
+}
+
+.second-box .login-container .input-login-wrap {
+	margin-bottom: 0;
 }
