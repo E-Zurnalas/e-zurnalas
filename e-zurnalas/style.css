@@ -1006,3 +1006,17 @@ textarea {
 	border-left: 0px;
 	border-right: 0px;
 }
+
+.second-box .login-container input[type=text]:focus-visible {
+	background-color: #fff;
+	border-bottom: 1px solid #E9E9F0;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.second-box .login-container input[type=text], .second-box .login-container input[type=password]{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
