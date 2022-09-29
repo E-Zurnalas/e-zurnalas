@@ -3,7 +3,7 @@
 
 get_header(); ?>
     <script type="text/javascript">
-        $("form").on("submit", function (e) {
+        jQuery("form").on("submit", function (e) {
             e.preventDefault();
         });
     </script>
