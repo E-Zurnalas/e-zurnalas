@@ -14,12 +14,10 @@ get_header(); ?>
             </p>
             <form method="post" action="">
                 <p class="form-row">
-
                     <input id="username" name="username" type="text" autocomplete="username" placeholder="El. Paštas">
                 </p>
                 <p class="form-row">
-                    <label for="password"><?php _e('Slaptažodis' , 'e-zurnalas'); ?></label>
-                    <input id="password" name="password" type="password" autocomplete="current-password">
+                    <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Slaptažodis">
                 </p>
                 <p class="form-row last-row">
                     <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
