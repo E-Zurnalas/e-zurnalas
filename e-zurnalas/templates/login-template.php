@@ -12,7 +12,7 @@ get_header(); ?>
         <div class="login-container">
             <img class="login-logo" src="" width="" height="" alt="">
             <p class="welcome-text">
-                </php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
+                <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
         </div>
     </div>
