@@ -104,3 +104,9 @@ add_action( 'widgets_init', 'e_zurnalas_widgets_init' );
  *  Include other functions files
  */
 include "inc/scripts.php";
+
+
+add_action('after_setup_theme', 'remove_admin_bar');
+function remove_admin_bar() {
+        show_admin_bar(false);
+}
