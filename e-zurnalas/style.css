@@ -568,6 +568,7 @@ input[type="submit"] {
 	padding: 12px 55px;
 	font-size: 18px;
 	border-color: #43425D;
+	cursor: pointer;
 }
 
 button:hover,
@@ -1035,4 +1036,18 @@ float: left;
 .submit-btn:hover {
 background-color: #fff;
 color: #43425D;
+}
+
+.register-btn {
+	background-color: #fff;
+	color: #43425D;
+	border-radius: 5px;
+	padding: 12px 55px;
+	font-size: 18px;
+	border-color: #43425D;
+	float: right;
+}
+.register-btn {
+	background-color: #43425D;
+	color: #fff;
 }
