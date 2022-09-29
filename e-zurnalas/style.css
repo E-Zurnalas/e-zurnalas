@@ -1068,3 +1068,8 @@ color: #43425D;
 .second-box .login-container input:focus{
 	outline: none;
 }
+
+.second-box .login-container input:focus, .second-box .login-container input:selected{
+	outline: none;
+	border-bottom: 1px solid #43425D;
+}
