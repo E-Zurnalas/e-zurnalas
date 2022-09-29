@@ -998,3 +998,7 @@ textarea {
 	text-align: center;
 	font-size: 15px;
 }
+
+.second-box .login-container input[type=text]:focus {
+	background-color: #fff;
+}
