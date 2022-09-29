@@ -14,7 +14,7 @@ get_header(); ?>
             </p>
             <form method="post" action="">
                 <p class="form-row">
-                    <label for="username"><?php _e('El. Paštas' , 'e-zurnalas'); ?></label>
+                    
                     <input id="username" name="username" type="text" autocomplete="username">
                 </p>
                 <p class="form-row">
