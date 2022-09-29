@@ -1,5 +1,5 @@
 <?php
-/* Template name: Login */
+/* Template name: Register */
 
 get_header(); ?>
 
