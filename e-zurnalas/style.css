@@ -1049,8 +1049,10 @@ color: #43425D;
 	font-size: 18px;
 	border-color: #43425D;
 	float: right;
+	text-decoration: none;
+	cursor: pointer;
 }
-.register-btn {
+.register-btn:hover {
 	background-color: #43425D;
 	color: #fff;
 }
