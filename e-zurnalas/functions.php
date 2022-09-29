@@ -101,13 +101,6 @@ function e_zurnalas_widgets_init() {
 add_action( 'widgets_init', 'e_zurnalas_widgets_init' );
 
 /**
- * Enqueue scripts and styles.
+ *  Include other functions files
  */
-function e_zurnalas_scripts() {
-	wp_enqueue_style( 'e-zurnalas-style', get_stylesheet_uri(), array(), _S_VERSION );
-
-	wp_enqueue_script( 'e-zurnalas-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), _S_VERSION, true );
-	
-}
-add_action( 'wp_enqueue_scripts', 'e_zurnalas_scripts' );
-
+include "inc/scripts.php";
