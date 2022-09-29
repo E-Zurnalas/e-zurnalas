@@ -979,8 +979,9 @@ textarea {
 
 .first-box, .second-box {
 	width: 50%;
+	height: 100vh;
 }
 
 .second-box {
-	
+
 }
