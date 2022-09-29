@@ -1,7 +1,6 @@
 (function($) {
 	$(document).ready(function(){
-		$(document).on('submit', '#login-form', function (e) {
-			e.preventDefault();
+		$('.register-btn').click(function () {
 			alert("Submitted");
 		});
 	});
