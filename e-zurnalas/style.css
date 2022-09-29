@@ -1023,7 +1023,7 @@ border-left: 0px;
 border-right: 0px;
 width: 100%;
 margin: 10px 0px;
-	padding: 5px;
+	padding: 10px;
 	font-size: 15px;
 }
 .second-box .login-container .submit-btn {
@@ -1060,4 +1060,7 @@ color: #43425D;
 
 .second-box .login-container .input-login-wrap {
 	margin-bottom: 0;
+}
+.second-box .login-container .input-login-wrap-pass {
+	margin-top: 0px;
 }
