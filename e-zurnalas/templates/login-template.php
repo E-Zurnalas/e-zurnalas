@@ -15,7 +15,7 @@ get_header(); ?>
             <form method="post" action="" id="login-form">
                 <p class="form-row input-login-wrap">
             <form method="post" id="login-form">
-                <p class="form-row">
+                <p class="form-row input-login-wrap">
                     <input id="username" name="username" type="text" autocomplete="username" placeholder="El. Paštas">
                 </p>
                 <p class="form-row">
