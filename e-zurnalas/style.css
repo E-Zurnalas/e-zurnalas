@@ -983,5 +983,11 @@ textarea {
 }
 
 .second-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
+.second-box .welcome-text {
+	text-align: center;
 }
