@@ -1064,3 +1064,7 @@ color: #43425D;
 .second-box .login-container .input-login-wrap-pass {
 	margin-top: 0px;
 }
+
+.second-box .login-container input:focus{
+	outline: none;
+}
