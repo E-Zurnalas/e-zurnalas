@@ -1069,7 +1069,7 @@ color: #43425D;
 	outline: none;
 }
 
-.second-box .login-container input:focus, .second-box .login-container input:selected{
+.second-box .login-container input[type=text]:focus, .second-box .login-container input[type=text]:selected{
 	outline: none;
 	border-bottom: 1px solid #43425D;
 }
