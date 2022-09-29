@@ -974,8 +974,13 @@ textarea {
 
 .login-section {
 	display: flex;
+	height: 100vh;
 }
 
 .first-box, .second-box {
 	width: 50%;
+}
+
+.second-box {
+	
 }
