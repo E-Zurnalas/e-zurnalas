@@ -1,6 +1,7 @@
-(function($) {
-	$(document).ready(function(){
-		console.log('test');
+jQuery(document).ready(function(){
+	jQuery('#login-form').on("submit", function(event){
+		event.preventDefault();
 		alert("Submitted");
 	});
 });
+
