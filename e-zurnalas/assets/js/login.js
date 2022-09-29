@@ -1,10 +1,7 @@
 (function($) {
-	$( document ).ready(function() {
-
-		$( "#login-form" ).submit(function( e ) {
-			console.log('test');
-			alert('submitted');
-			e.preventDefault();
+	$(document).ready(function(){
+		$("form").submit(function(){
+			alert("Submitted");
 		});
 	});
 });
