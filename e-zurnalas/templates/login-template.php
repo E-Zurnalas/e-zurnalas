@@ -2,11 +2,7 @@
 /* Template name: Login */
 
 get_header(); ?>
-    <script type="text/javascript">
-        jQuery("form").on("submit", function (e) {
-            e.preventDefault();
-        });
-    </script>
+
 <div class="login-section">
     <div class="first-box">
     </div>
@@ -16,7 +12,7 @@ get_header(); ?>
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
-            <form id="login-form">
+            <form method="post" id="login-form">
                 <p class="form-row input-login-wrap">
                     <input id="username" name="username" type="text" autocomplete="username" placeholder="El. Paštas">
                 </p>
