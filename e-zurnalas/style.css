@@ -1001,4 +1001,8 @@ textarea {
 
 .second-box .login-container input[type=text]:focus {
 	background-color: #fff;
+	border-bottom: 1px solid #E9E9F0;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
 }
