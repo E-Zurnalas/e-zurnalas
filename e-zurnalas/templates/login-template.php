@@ -3,8 +3,6 @@
 
 get_header(); ?>
 
-<h1>Yeee login</h1>
-
 <div class="login-section">
     <div class="first-box">
     </div>
