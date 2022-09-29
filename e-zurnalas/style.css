@@ -1051,6 +1051,7 @@ color: #43425D;
 	float: right;
 	text-decoration: none;
 	cursor: pointer;
+	border: 1px solid;
 }
 .register-btn:hover {
 	background-color: #43425D;
