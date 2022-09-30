@@ -1104,6 +1104,11 @@ position: fixed;
     color: #fff;
     text-decoration: none;
     font-size: 15px;
+    padding: 10px 11px 10px 0px;
+}
+
+#admin-menu-wrap ul li:hover {
+    background-color: #3B3A53;
 }
 
 
