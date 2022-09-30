@@ -1110,7 +1110,7 @@ position: fixed;
 
 #admin-menu-wrap ul li:hover {
     background-color: #3B3A53;
-    margin-left: 5px;
+    padding-left: 25px;
 }
 
 #admin-menu-wrap ul li:before {
