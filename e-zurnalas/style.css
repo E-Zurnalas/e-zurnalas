@@ -1118,8 +1118,8 @@ position: fixed;
     width: 5px;
     height: 100%;
     background-color: #3D84A8;
+    left: 0;
     position: absolute;
-
 }
 
 
