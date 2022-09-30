@@ -1103,3 +1103,10 @@ background: #fff;
     width: 210px;
     margin-left: 20px;
 }
+
+#admin-menu-wrap .main-logo {
+width: 260px;
+height: 70px;
+background-color: #3B3A53;
+display: flex;
+}
