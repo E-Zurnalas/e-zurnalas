@@ -19,6 +19,7 @@ get_header(); ?>
                     )
                     );
                 ?>
+                <button class="new-project-button"><?php _e('Naujas Projektas' , 'e-zurnalas'); ?></button>
         </div>
 </div>
 
