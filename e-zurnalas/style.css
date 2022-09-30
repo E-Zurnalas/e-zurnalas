@@ -1110,6 +1110,7 @@ position: fixed;
 
 #admin-menu-wrap ul li:hover {
     background-color: #3B3A53;
+    margin-left: 5px;
 }
 
 #admin-menu-wrap ul li:hover:before {
@@ -1117,6 +1118,7 @@ position: fixed;
     width: 5px;
     height: 100%;
     background-color: #3D84A8;
+    position: absolute;
 
 }
 
