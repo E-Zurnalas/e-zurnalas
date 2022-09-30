@@ -7,6 +7,7 @@ get_header(); ?>
     <div id="admin-menu-wrap">
         <div id="admin-page-back"></div>
         <div id="admin-page-menu">
+            <div id="admin-page-top-bar" class=""></div>
         <?php
         wp_nav_menu(
             array(

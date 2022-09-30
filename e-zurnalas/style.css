@@ -1085,3 +1085,21 @@ color: #43425D;
 	z-index: 9999;
 	position: fixed;
 }
+
+
+#admin-page-top-bar {
+	direction: ltr;
+	color: #c3c4c7;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	line-height: 2.46153846;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 600px;
+	z-index: 99999;
+	background: #1d2327;
+}
