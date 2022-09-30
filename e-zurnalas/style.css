@@ -1098,3 +1098,8 @@ z-index: 999;
 background: #fff;
 	margin-left: 260px;
 }
+
+#admin-menu-wrap .login-logo {
+    width: 210px;
+    margin-right: 20px;
+}
