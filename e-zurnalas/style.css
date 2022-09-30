@@ -1092,6 +1092,12 @@ position: fixed;
     padding: 0;
 }
 
+#admin-menu-wrap ul li{
+    height: 53px;
+    padding-left: 20px;
+}
+
+
 
 #admin-page-top-bar {
 height: 70px;
