@@ -60,7 +60,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
- ========================================================================== */
+========================================================================== */
 
 /**
 * 1. Correct the line height in all browsers.
@@ -72,7 +72,7 @@ line-height: 1;
 }
 
 /* Sections
- ========================================================================== */
+========================================================================== */
 
 /**
 * Remove the margin in all browsers.
@@ -98,7 +98,7 @@ margin: 0.67em 0;
 }
 
 /* Grouping content
- ========================================================================== */
+========================================================================== */
 
 /**
 * 1. Add the correct box sizing in Firefox.
@@ -120,7 +120,7 @@ font-size: 1em;
 }
 
 /* Text-level semantics
- ========================================================================== */
+========================================================================== */
 
 /**
 * Remove the gray background on active links in IE 10.
@@ -186,7 +186,7 @@ top: -0.5em;
 }
 
 /* Embedded content
- ========================================================================== */
+========================================================================== */
 
 /**
 * Remove the border on images inside links in IE 10.
@@ -196,7 +196,7 @@ border-style: none;
 }
 
 /* Forms
- ========================================================================== */
+========================================================================== */
 
 /**
 * 1. Change the font styles in all browsers.
@@ -342,7 +342,7 @@ font: inherit;
 }
 
 /* Interactive
- ========================================================================== */
+========================================================================== */
 
 /*
 * Add the correct display in Edge, IE 10+, and Firefox.
@@ -359,7 +359,7 @@ display: list-item;
 }
 
 /* Misc
- ========================================================================== */
+========================================================================== */
 
 /**
 * Add the correct display in IE 10+.
@@ -473,7 +473,7 @@ font-size: 125%;
 /* Elements
 --------------------------------------------- */
 body {
-background: #fff;
+background: #f0f0f7;
 }
 
 hr {
@@ -562,21 +562,21 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #43425D;
-	color: #Fff;
-	border-radius: 5px;
-	padding: 12px 55px;
-	font-size: 18px;
-	border-color: #43425D;
-	cursor: pointer;
+background-color: #43425D;
+color: #Fff;
+border-radius: 5px;
+padding: 12px 55px;
+font-size: 18px;
+border-color: #43425D;
+cursor: pointer;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background-color: #fff;
-	color: #43425D;
+background-color: #fff;
+color: #43425D;
 }
 
 button:active,
@@ -708,11 +708,11 @@ display: block;
 @media screen and (min-width: 37.5em) {
 
 .menu-toggle {
-	display: none;
+display: none;
 }
 
 .main-navigation ul {
-	display: flex;
+display: flex;
 }
 }
 
@@ -993,14 +993,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-	padding: 20px;
+padding: 20px;
 }
 
 .second-box .welcome-text {
 text-align: center;
 font-size: 18px;
-	color: #4D4F5C;
-	margin-top: 30px;
+color: #4D4F5C;
+margin-top: 30px;
 }
 
 .second-box .login-container input[type=text]:focus {
@@ -1025,8 +1025,8 @@ border-left: 0px;
 border-right: 0px;
 width: 100%;
 margin: 10px 0px;
-	padding: 10px;
-	font-size: 15px;
+padding: 10px;
+font-size: 15px;
 }
 .second-box .login-container .submit-btn {
 background-color: #43425D;
@@ -1044,62 +1044,62 @@ color: #43425D;
 }
 
 .second-box .login-container .register-btn {
-	background-color: #fff;
-	color: #43425D;
-	border-radius: 5px;
-	padding: 12px 55px;
-	font-size: 18px;
-	border-color: #43425D;
-	float: right;
-	text-decoration: none;
-	cursor: pointer;
-	border: 1px solid;
+background-color: #fff;
+color: #43425D;
+border-radius: 5px;
+padding: 12px 55px;
+font-size: 18px;
+border-color: #43425D;
+float: right;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid;
 }
 .second-box .login-container .register-btn:hover {
-	background-color: #43425D;
-	color: #fff;
+background-color: #43425D;
+color: #fff;
 }
 
 .second-box .login-container .input-login-wrap {
-	margin-bottom: 0;
+margin-bottom: 0;
 }
 .second-box .login-container .input-login-wrap-pass {
-	margin-top: 0px;
+margin-top: 0px;
 }
 
 .second-box .login-container input:focus{
-	outline: none;
+outline: none;
 }
 
 /* Admin User Panel
 --------------------------------------------- */
 #admin-menu-wrap #admin-page-back {
-	background-color: #43425D;
-	position: fixed;
-	top: 0;
-	bottom: -120px;
-	z-index: 1;
-	width: 260px;
+background-color: #43425D;
+position: fixed;
+top: 0;
+bottom: -120px;
+z-index: 1;
+width: 260px;
 }
 #admin-menu-wrap #admin-page-menu {
-	z-index: 9999;
-	position: fixed;
+z-index: 9999;
+position: fixed;
 }
 
 
 #admin-page-top-bar {
-	direction: ltr;
-	color: #c3c4c7;
-	font-size: 13px;
-	font-weight: 400;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	line-height: 2.46153846;
-	height: 32px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	min-width: 600px;
-	z-index: 99999;
-	background: #1d2327;
+direction: ltr;
+color: #c3c4c7;
+font-size: 13px;
+font-weight: 400;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+line-height: 2.46153846;
+height: 70px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+min-width: 600px;
+z-index: 99999;
+background: #fff;
 }
