@@ -1084,6 +1084,9 @@ width: 260px;
 #admin-menu-wrap #admin-page-menu {
 z-index: 9999;
 position: fixed;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 
@@ -1096,12 +1099,12 @@ width: 100%;
 min-width: 600px;
 z-index: 999;
 background: #fff;
-	margin-left: 260px;
+margin-left: 260px;
 }
 
 #admin-menu-wrap .login-logo {
-    width: 210px;
-    margin-left: 20px;
+width: 210px;
+margin-left: 20px;
 }
 
 #admin-menu-wrap .main-logo {
