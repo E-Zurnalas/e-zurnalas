@@ -1113,14 +1113,21 @@ position: fixed;
     margin-left: 5px;
 }
 
-#admin-menu-wrap ul li:hover:before {
+#admin-menu-wrap ul li:before {
     content: "";
     width: 5px;
     height: 100%;
     background-color: #3D84A8;
     left: 0;
     position: absolute;
+    display: none;
 }
+
+#admin-menu-wrap ul li:hover:before {
+    display: block;
+}
+
+
 
 
 
