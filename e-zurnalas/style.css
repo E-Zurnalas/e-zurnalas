@@ -991,7 +991,7 @@ width: 50%;
 background-image: url("../e-zurnalas/assets/images/login-bg-blue.png");
 background-size: cover;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .second-box {
