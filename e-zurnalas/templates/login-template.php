@@ -28,6 +28,14 @@ get_header(); ?>
     <div class="first-box">
         <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-white.svg"; ?>" width="240" height="60" alt="">
         <img class="login-auth" src="<?php echo get_template_directory_uri() . "/assets/images/auth.png"; ?>" alt="">
+        <p class="back-text-main">
+            <?php _e('Fast, Efficient and Productive' , 'e-zurnalas'); ?>
+        </p>
+        <p class="back-text-second">
+            <?php _e('In this kind of post, the bloggerintroduces a person they’ve interviewed
+and provides some background information about the intervieweeand their
+work following this is a transcript of the interview.' , 'e-zurnalas'); ?>
+        </p>
     </div>
 </div>
 

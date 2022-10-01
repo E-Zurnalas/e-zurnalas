@@ -999,8 +999,16 @@ background-size: cover;
 
 .first-box .login-auth {
     width: 470px;
+    margin: 50px 0px;
 }
 
+.first-box .back-text-main {
+    font-size: 30px;
+}
+
+.first-box .back-text-second {
+    font-size: 12px;
+}
 
 .second-box {
 display: flex;
