@@ -25,7 +25,7 @@ get_header(); ?>
     </div>
 
     <div class="first-box">
-        <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-svg-white2.svg"; ?>" width="240" height="60" alt="">
+        <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-white.svg"; ?>" width="240" height="60" alt="">
     </div>
 </div>
 
