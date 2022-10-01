@@ -1113,6 +1113,15 @@ position: fixed;
     padding-left: 25px;
 }
 
+#admin-menu-wrap ul li.current_page_item {
+    background-color: #3B3A53;
+    padding-left: 25px;
+}
+
+#admin-menu-wrap ul li.current_page_item:before {
+    display: block;
+}
+
 #admin-menu-wrap ul li:before {
     content: "";
     width: 5px;
@@ -1134,6 +1143,7 @@ position: fixed;
     font-size: 16px;
     margin: 20px 0px;
     font-weight: 500;
+    border: white;
 }
 
 #admin-menu-wrap .new-project-wrap {
