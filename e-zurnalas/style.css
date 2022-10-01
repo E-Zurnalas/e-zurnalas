@@ -568,6 +568,7 @@ input[type="submit"] {
     margin: 15px 0px;
     font-weight: 500;
     border: #0ca1f3;
+    padding: 12px 55px;
 }
 
 button:hover,
