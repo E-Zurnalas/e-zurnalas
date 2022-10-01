@@ -628,6 +628,8 @@ input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
 color: #111;
+    border: 1px solid #b5b5c3;
+    outline: none;
 }
 
 select {
@@ -1045,17 +1047,12 @@ padding: 20px;
 .second-box .login-container input[type=text]:focus {
 background-color: #fff;
 border-bottom: 1px solid #43425D;
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
+
 }
 
 .second-box .login-container input[type=text]:focus-visible {
 background-color: #fff;
 border-bottom: 1px solid #E9E9F0;
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
 }
 
 .second-box .login-container input[type=text], .second-box .login-container input[type=password]{
