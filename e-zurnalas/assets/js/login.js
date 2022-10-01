@@ -3,7 +3,18 @@ jQuery(document).ready(function(){
 		event.preventDefault();
 		let login = jQuery('#username').val();
 		let pass = jQuery('#password').val();
-		console.log(login + ' - ' + pass);
+		jQuery.ajax({
+			url: loginajax.ajaxUrl,
+			data : {
+				user: login,
+				pass: pass,
+				action : 'login',
+			},
+			type: 'POST',
+			success: function (data) {
+				console.log(data);
+			}
+		});
 	});
 });
 
