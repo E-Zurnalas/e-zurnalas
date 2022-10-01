@@ -388,7 +388,7 @@ box-sizing: inherit;
 
 html {
 box-sizing: border-box;
-    font-family: Inter, Helvetica, "sans-serif";
+font-family: Inter, Helvetica, "sans-serif";
 }
 
 /*--------------------------------------------------------------
@@ -404,8 +404,8 @@ select,
 optgroup,
 textarea {
 color: #404040;
-    font-family: Inter, Helvetica, "sans-serif";
-    font-size: 1rem;
+font-family: Inter, Helvetica, "sans-serif";
+font-size: 1rem;
 line-height: 1;
 }
 
@@ -975,7 +975,7 @@ margin-bottom: 1.5em;
 --------------------------------------------- */
 
 body.page-template-login-template{
-    background-color: #fff;
+background-color: #fff;
 }
 
 .login-section {
@@ -990,8 +990,9 @@ width: 50%;
 .first-box {
 background-image: url("../e-zurnalas/assets/images/login-bg-blue.png");
 background-size: cover;
-    align-items: center;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .second-box {
@@ -1093,68 +1094,68 @@ position: fixed;
 }
 
 #admin-menu-wrap ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 #admin-menu-wrap ul li{
-    height: 53px;
-    padding-left: 20px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    position: relative;
+height: 53px;
+padding-left: 20px;
+display: flex;
+align-content: center;
+align-items: center;
+position: relative;
 }
 
 #admin-menu-wrap ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px 11px 10px 0px;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+padding: 10px 11px 10px 0px;
 }
 
 #admin-menu-wrap ul li:hover {
-    background-color: #2A2A3C;
-    padding-left: 25px;
+background-color: #2A2A3C;
+padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item {
-    background-color: #2A2A3C;
-    padding-left: 25px;
+background-color: #2A2A3C;
+padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item:before {
-    display: block;
+display: block;
 }
 
 #admin-menu-wrap ul li:before {
-    content: "";
-    width: 5px;
-    height: 100%;
-    background-color: #3D84A8;
-    left: 0;
-    position: absolute;
-    display: none;
+content: "";
+width: 5px;
+height: 100%;
+background-color: #3D84A8;
+left: 0;
+position: absolute;
+display: none;
 }
 
 #admin-menu-wrap ul li:hover:before {
-    display: block;
+display: block;
 }
 
 #admin-menu-wrap .new-project-button {
-    border-radius: 25px;
-    background-color: #fff;
-    color: #3D84A8;
-    font-size: 16px;
-    margin: 20px 0px;
-    font-weight: 500;
-    border: white;
+border-radius: 25px;
+background-color: #fff;
+color: #3D84A8;
+font-size: 16px;
+margin: 20px 0px;
+font-weight: 500;
+border: white;
 }
 
 #admin-menu-wrap .new-project-wrap {
-    width: 100%;
-    text-align: center;
+width: 100%;
+text-align: center;
 }
 
 #admin-page-top-bar {
