@@ -1005,6 +1005,10 @@ background-size: cover;
     font-size: 30px;
     font-weight: 700;
     color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+
 }
 
 .first-box .back-text-second {
@@ -1012,6 +1016,8 @@ background-size: cover;
     color: #fff;
     max-width: 470px;
     font-weight: 400;
+    text-align: center;
+    line-height: 16px;
 }
 
 .second-box {
