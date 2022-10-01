@@ -561,21 +561,21 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-background-color: #43425D;
-color: #Fff;
-border-radius: 5px;
-padding: 12px 55px;
-font-size: 18px;
-border-color: none;
-cursor: pointer;
+    border-radius: 5px;
+    background-color: #0ca1f3;
+    color: #fff;
+    font-size: 14px;
+    margin: 15px 0px;
+    font-weight: 500;
+    border: #0ca1f3;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-background-color: #fff;
-color: #43425D;
+    background-color: #0283cc;
+    border: #0283cc;
 }
 
 button:active,
