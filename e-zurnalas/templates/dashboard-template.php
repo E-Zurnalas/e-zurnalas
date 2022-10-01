@@ -11,7 +11,9 @@ get_header(); ?>
                 <div class="main-logo">
                     <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg"; ?>" width="167" height="41" alt="">
                 </div>
+                <div class="new-project-wrap">
                 <button class="new-project-button"><?php _e('Naujas Projektas' , 'e-zurnalas'); ?></button>
+                </div>
                 <?php
                     wp_nav_menu(
                     array(
