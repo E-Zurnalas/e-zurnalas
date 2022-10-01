@@ -1088,6 +1088,10 @@ color: #009ef7;
 .second-box .login-container .register-btn:hover {
 color: #0283cc;
 }
+.second-box .login-container .dont-have-acc {
+    font-size: 14px;
+    color: #A1A5B7;
+}
 
 .second-box .login-container .input-login-wrap {
 margin-bottom: 0;
