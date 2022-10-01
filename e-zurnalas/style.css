@@ -1068,35 +1068,24 @@ padding: 10px;
 font-size: 15px;
 }
 .second-box .login-container .submit-btn {
-background-color: #43425D;
-color: #Fff;
-border-radius: 5px;
-padding: 12px 55px;
-font-size: 18px;
-border-color: #43425D;
-float: left;
+    width: 100%;
+    background-color: #009ef7;
+    color: #Fff;
+    border-radius: 5px;
+    padding: 12px 55px;
+    font-size: 14px;
+    border: none;
 }
 
 .second-box .login-container .submit-btn:hover {
-background-color: #fff;
-color: #43425D;
+background-color: #0283cc;
 }
 
 .second-box .login-container .register-btn {
-background-color: #fff;
-color: #43425D;
-border-radius: 5px;
-padding: 12px 55px;
-font-size: 18px;
-border-color: #43425D;
-float: right;
-text-decoration: none;
-cursor: pointer;
-border: 1px solid;
+color: #009ef7;
 }
 .second-box .login-container .register-btn:hover {
-background-color: #43425D;
-color: #fff;
+color: #0283cc;
 }
 
 .second-box .login-container .input-login-wrap {
