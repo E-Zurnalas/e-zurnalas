@@ -1044,17 +1044,6 @@ padding: 20px;
     margin-top: 0;
 }
 
-.second-box .login-container input[type=text]:focus {
-background-color: #fff;
-border-bottom: 1px solid #b5b5c3;
-
-}
-
-.second-box .login-container input[type=text]:focus-visible {
-background-color: #fff;
-border-bottom: 1px solid #b5b5c3;
-}
-
 .second-box .login-container input[type=text], .second-box .login-container input[type=password]{
 width: 100%;
 margin: 10px 0px;
