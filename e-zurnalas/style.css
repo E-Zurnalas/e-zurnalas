@@ -388,7 +388,7 @@ box-sizing: inherit;
 
 html {
 box-sizing: border-box;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: Inter, Helvetica, "sans-serif";
 }
 
 /*--------------------------------------------------------------
@@ -1074,7 +1074,7 @@ outline: none;
 /* Admin User Panel
 --------------------------------------------- */
 #admin-menu-wrap #admin-page-back {
-background-color: #43425D;
+background-color: #1E1E2D;
 position: fixed;
 top: 0;
 bottom: -120px;
@@ -1109,12 +1109,12 @@ position: fixed;
 }
 
 #admin-menu-wrap ul li:hover {
-    background-color: #3B3A53;
+    background-color: #2A2A3C;
     padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item {
-    background-color: #3B3A53;
+    background-color: #2A2A3C;
     padding-left: 25px;
 }
 
