@@ -21,7 +21,7 @@ add_filter( 'wp_ajax_nopriv_login', 'login' );
 add_filter( 'wp_ajax_login', 'login' );
 
 function user_logedin_redirect(): void {
-	if(is_user_logged_in()) :
+	if(is_user_logged_in() && is_page_template('templates/login-template.php')) :
 		$url = get_home_url();
 		header( 'Location: ' . $url);
 	endif;
