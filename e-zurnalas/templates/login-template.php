@@ -4,7 +4,7 @@
 get_header();
 if(is_user_logged_in()) :
     $url = get_home_url();
-	header( "Location: $url" );
+	wp_redirect( "Location: $url" );
 endif;
 ?>
 
