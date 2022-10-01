@@ -999,6 +999,10 @@ justify-content: center;
     width: 470px;
 }
 
+.auth-logo-wrap. .auth-login-wrap{
+    width: 100%;
+}
+
 .second-box {
 display: flex;
 align-items: center;
