@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 		{
 			valid = 1;
 		}
-		if(pass.length == 0) {
+		if(pass.length === 0) {
 			valid = 0;
 		}
 		if(valid) {
@@ -24,6 +24,9 @@ jQuery(document).ready(function(){
 					console.log(data);
 				}
 			});
+		}
+		else {
+			jQuery('.error-message').show();
 		}
 	});
 });
