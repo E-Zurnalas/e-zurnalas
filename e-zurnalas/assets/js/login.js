@@ -1,7 +1,9 @@
 jQuery(document).ready(function(){
 	jQuery('#login-form').on("submit", function(event){
 		event.preventDefault();
-		alert("Submitted");
+		let login = jQuery('#username').val();
+		let pass = jQuery('$password').val();
+		console.log(login + ' - ' + pass);
 	});
 });
 
