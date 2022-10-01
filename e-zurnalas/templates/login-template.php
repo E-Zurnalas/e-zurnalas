@@ -2,10 +2,6 @@
 /* Template name: Login */
 
 get_header();
-if(is_user_logged_in()) :
-    $url = get_home_url();
-	wp_redirect( "Location: $url" );
-endif;
 ?>
 
 <div class="login-section">
