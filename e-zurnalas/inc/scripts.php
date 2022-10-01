@@ -12,7 +12,7 @@ function e_zurnalas_scripts() {
 	}
 	
 	/* Ajax */
-	wp_localize_script('login', 'login-ajax', array('ajaxUrl' => admin_url('admin-ajax.php')));
+	wp_localize_script('login', 'loginajax', array('ajaxUrl' => admin_url('admin-ajax.php')));
 	
 }
 add_action( 'wp_enqueue_scripts', 'e_zurnalas_scripts' );
