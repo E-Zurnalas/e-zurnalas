@@ -978,7 +978,13 @@ margin-bottom: 1.5em;
 body.page-template-login-template{
 background-color: #fff;
 }
-
+.error-message {
+    color: red;
+    margin: 10px 0px;
+    text-align: left;
+    display: none;
+}
+}
 .login-section {
 display: flex;
 height: 100vh;
