@@ -534,6 +534,7 @@ width: 100%;
 --------------------------------------------- */
 a {
 color: #4169e1;
+    cursor: pointer;
 }
 
 a:visited {
@@ -568,6 +569,8 @@ input[type="submit"] {
     margin: 15px 0px;
     font-weight: 500;
     border: #0ca1f3;
+    padding: 12px 55px;
+    cursor: pointer;
 }
 
 button:hover,
@@ -1128,7 +1131,7 @@ position: relative;
 #admin-menu-wrap ul li a {
 color: #fff;
 text-decoration: none;
-font-size: 16px;
+font-size: 14px;
 padding: 10px 11px 10px 0px;
 }
 
