@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
 				},
 				type: 'POST',
 				success: function (data) {
-					window.location.replace(data);
+					window.location.replace(data.slice(0,-1));
 				}
 			});
 		}
