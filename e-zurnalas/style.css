@@ -1134,10 +1134,10 @@ position: fixed;
     font-size: 16px;
 }
 
-
-
-
-
+#admin-menu-wrap .new-project-wrap {
+    width: 100%;
+    text-align: center;
+}
 
 #admin-page-top-bar {
 height: 70px;
