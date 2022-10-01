@@ -11,7 +11,7 @@ function e_zurnalas_scripts() {
 		wp_enqueue_script( 'login', get_template_directory_uri() . '/assets/js/login.js', array('jquery'), _S_VERSION, true);
 	}
 	
-	// Ajax //
+	/* Ajax */
 	wp_localize_script('login', 'login-ajax', array('ajaxUrl' => admin_url('admin-ajax.php')));
 	
 }
