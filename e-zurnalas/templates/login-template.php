@@ -6,6 +6,7 @@ get_header(); ?>
 <div class="login-section">
     <div class="second-box">
         <div class="login-container">
+            <p class="Sign-in-text"><?php _e('Prisijungti' , 'e-zurnalas'); ?></p>
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
