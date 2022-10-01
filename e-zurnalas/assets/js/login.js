@@ -8,6 +8,9 @@ jQuery(document).ready(function(){
 		{
 			valid = 1;
 		}
+		if(pass.length == 0) {
+			valid = 0;
+		}
 		if(valid) {
 			jQuery.ajax({
 				url: loginajax.ajaxUrl,
