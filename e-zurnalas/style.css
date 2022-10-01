@@ -1117,7 +1117,7 @@ padding: 0;
 }
 
 #admin-menu-wrap ul li{
-height: 53px;
+height: 44px;
 padding-left: 20px;
 display: flex;
 align-content: center;
@@ -1138,14 +1138,21 @@ padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item {
-background-color: #2a2a3c;
-padding-left: 25px;
-    border-radius: 5px;
+    background-color: #2a2a3c;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 10px;
+}
+#admin-menu-wrap ul li:hover {
+    background-color: #2a2a3c;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 10px;
 }
 
 
 #admin-menu-wrap .new-project-button {
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: #0ca1f3;
     color: #fff;
     font-size: 14px;
