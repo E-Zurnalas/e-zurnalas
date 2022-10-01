@@ -19,7 +19,7 @@ get_header(); ?>
                 </p>
                 <p class="form-row last-row buttons-login">
                     <p class="error-message">
-                        <?php _e('Neteisingai suvesti duomenys!', 'e-zurnalas');?>
+                        <?php _e('Neteisingi prisijungimo duomenys!', 'e-zurnalas');?>
                     </p>
                     <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
                     <p class="dont-have-acc"> <?php _e('Dar neturite paskyros?' , 'e-zurnalas'); ?>
