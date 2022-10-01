@@ -1,5 +1,5 @@
 <?php
-function Login() {
+function Login(): void {
 
-	
+
 }
