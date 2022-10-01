@@ -27,4 +27,4 @@ function user_logedin_redirect(): void {
 	endif;
 }
 
-add_action('init', 'user_logedin_redirect');
+add_action( 'template_redirect', 'user_logedin_redirect' );
