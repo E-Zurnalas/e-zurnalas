@@ -1010,11 +1010,18 @@ text-align: center;
 padding: 20px;
 }
 
+.second-box .Sign-in-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #181C32;
+    margin-bottom: 10px;
+}
+
 .second-box .welcome-text {
-text-align: center;
-font-size: 18px;
-color: #4D4F5C;
-margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #A1A5B7;
+    margin-top: 0;
 }
 
 .second-box .login-container input[type=text]:focus {
