@@ -1138,9 +1138,16 @@ padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item {
-background-color: #2a2a3c;
-padding-left: 25px;
-    border-radius: 5px;
+    background-color: #2a2a3c;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 10px;
+}
+#admin-menu-wrap ul li:hover {
+    background-color: #2a2a3c;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 10px;
 }
 
 
