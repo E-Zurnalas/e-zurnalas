@@ -259,7 +259,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-outline: 1px dotted ButtonText;
+outline: none;
 }
 
 /**
@@ -567,7 +567,7 @@ color: #Fff;
 border-radius: 5px;
 padding: 12px 55px;
 font-size: 18px;
-border-color: #43425D;
+border-color: none;
 cursor: pointer;
 }
 
