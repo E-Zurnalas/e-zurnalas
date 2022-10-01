@@ -1034,7 +1034,7 @@ padding: 20px;
     font-size: 18px;
     font-weight: 500;
     color: #181C32;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .second-box .welcome-text {
@@ -1042,6 +1042,7 @@ padding: 20px;
     font-size: 14px;
     color: #A1A5B7;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .second-box .login-container input[type=text], .second-box .login-container input[type=password]{
