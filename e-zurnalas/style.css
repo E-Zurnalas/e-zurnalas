@@ -999,7 +999,7 @@ justify-content: center;
     width: 470px;
 }
 
-.auth-logo-wrap. .auth-login-wrap{
+.auth-logo-wrap, .auth-login-wrap{
     width: 100%;
 }
 
