@@ -12,7 +12,7 @@ function login(): void {
 			echo $user->get_error_message();
 		}
 		else {
-			echo "veikia";
+			echo get_home_url();
 		}
 		
 	}
