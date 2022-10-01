@@ -605,10 +605,10 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-    color: #666;
-    border: 1px solid #e4e6ef;
-    border-radius: 5px;
-    padding: 3px;
+color: #666;
+border: 1px solid #e4e6ef;
+border-radius: 5px;
+padding: 3px;
 }
 
 input[type="text"]:focus,
@@ -628,8 +628,8 @@ input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
 color: #111;
-    border: 1px solid #b5b5c3;
-    outline: none;
+border: 1px solid #b5b5c3;
+outline: none;
 }
 
 select {
@@ -979,11 +979,11 @@ body.page-template-login-template{
 background-color: #fff;
 }
 .error-message {
-    color: red;
-    margin: 10px 0px;
-    text-align: left;
-    display: none;
-    font-size: 14px;
+color: red;
+margin: 10px 0px;
+text-align: left;
+display: none;
+font-size: 14px;
 }
 
 .login-section {
@@ -998,35 +998,35 @@ width: 50%;
 .first-box {
 background-image: url("../e-zurnalas/assets/images/login-bg-blue.png");
 background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+align-content: center;
 }
 
 .first-box .login-auth {
-    width: 470px;
-    margin: 50px 0px;
+width: 470px;
+margin: 50px 0px;
 }
 
 .first-box .back-text-main {
-    font-size: 30px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0;
-    margin-bottom: 20px;
-    text-align: center;
+font-size: 30px;
+font-weight: 700;
+color: #fff;
+margin: 0;
+margin-bottom: 20px;
+text-align: center;
 
 }
 
 .first-box .back-text-second {
-    font-size: 12px;
-    color: #fff;
-    max-width: 470px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 16px;
+font-size: 12px;
+color: #fff;
+max-width: 470px;
+font-weight: 400;
+text-align: center;
+line-height: 16px;
 }
 
 .second-box {
@@ -1038,18 +1038,18 @@ padding: 20px;
 }
 
 .second-box .Sign-in-text {
-    font-size: 18px;
-    font-weight: 500;
-    color: #181C32;
-    margin-bottom: 20px;
+font-size: 18px;
+font-weight: 500;
+color: #181C32;
+margin-bottom: 20px;
 }
 
 .second-box .welcome-text {
-    text-align: center;
-    font-size: 14px;
-    color: #A1A5B7;
-    margin-top: 0;
-    margin-bottom: 30px;
+text-align: center;
+font-size: 14px;
+color: #A1A5B7;
+margin-top: 0;
+margin-bottom: 30px;
 }
 
 .second-box .login-container input[type=text], .second-box .login-container input[type=password]{
@@ -1059,13 +1059,13 @@ padding: 10px;
 font-size: 15px;
 }
 .second-box .login-container .submit-btn {
-    width: 100%;
-    background-color: #009ef7;
-    color: #Fff;
-    border-radius: 5px;
-    padding: 12px 55px;
-    font-size: 14px;
-    border: none;
+width: 100%;
+background-color: #009ef7;
+color: #Fff;
+border-radius: 5px;
+padding: 12px 55px;
+font-size: 14px;
+border: none;
 }
 
 .second-box .login-container .submit-btn:hover {
@@ -1074,14 +1074,14 @@ background-color: #0283cc;
 
 .second-box .login-container .register-btn {
 color: #009ef7;
-    font-size: 14px;
+font-size: 14px;
 }
 .second-box .login-container .register-btn:hover {
 color: #0283cc;
 }
 .second-box .login-container .dont-have-acc {
-    font-size: 14px;
-    color: #A1A5B7;
+font-size: 14px;
+color: #A1A5B7;
 }
 
 .second-box .login-container .input-login-wrap {
@@ -1188,13 +1188,16 @@ margin-left: 260px;
 }
 
 #admin-menu-wrap .login-logo {
-width: 210px;
 margin-left: 20px;
 }
 
 #admin-menu-wrap .main-logo {
 width: 260px;
 height: 70px;
-background-color: #3B3A53;
+background-color: #1E1E2D;
 display: flex;
+align-content: center;
+align-items: center;
+border-bottom: 1px dashed #393945;
+
 }
