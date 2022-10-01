@@ -1,7 +1,12 @@
 <?php
 /* Template name: Login */
 
-get_header(); ?>
+get_header();
+if(is_user_logged_in()) :
+    $url = get_home_url();
+	header( "Location: $url" );
+endif;
+?>
 
 <div class="login-section">
     <div class="second-box">
