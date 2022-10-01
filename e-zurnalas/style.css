@@ -1083,6 +1083,7 @@ background-color: #0283cc;
 
 .second-box .login-container .register-btn {
 color: #009ef7;
+    font-size: 14px;
 }
 .second-box .login-container .register-btn:hover {
 color: #0283cc;
