@@ -6,7 +6,7 @@ get_header(); ?>
     <div class="login-section">
         <div class="second-box">
             <div class="login-container">
-                <p class="Sign-in-text"><?php _e('Prisijungti' , 'e-zurnalas'); ?></p>
+                <p class="Sign-in-text"><?php _e('Registruotis' , 'e-zurnalas'); ?></p>
                 <p class="welcome-text">
                     <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
                 </p>
@@ -21,9 +21,9 @@ get_header(); ?>
                     <p class="error-message">
                         <?php _e('Neteisingi prisijungimo duomenys!', 'e-zurnalas');?>
                     </p>
-                    <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
-                    <p class="dont-have-acc"> <?php _e('Dar neturite paskyros?' , 'e-zurnalas'); ?>
-                        <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a> 
+                    <input class="submit-btn" type="submit" name="login" value="<?php _e('Registruotis', 'e-zurnalas'); ?>">
+                    <p class="dont-have-acc"> <?php _e('Turite paskyrą?' , 'e-zurnalas'); ?>
+                        <a class="register-btn" href="#"><?php _e('Prisijungti' , 'e-zurnalas'); ?></a>
                     </p>
                     </p>
                 </form>
