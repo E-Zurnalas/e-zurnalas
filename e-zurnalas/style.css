@@ -974,6 +974,10 @@ margin-bottom: 1.5em;
 /* Login Page
 --------------------------------------------- */
 
+body.page-template-login-template{
+    background-color: #fff;
+}
+
 .login-section {
 display: flex;
 height: 100vh;
