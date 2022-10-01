@@ -1138,27 +1138,11 @@ padding-left: 25px;
 }
 
 #admin-menu-wrap ul li.current_page_item {
-background-color: #2A2A3C;
+background-color: #2a2a3c;
 padding-left: 25px;
+    border-radius: 5px;
 }
 
-#admin-menu-wrap ul li.current_page_item:before {
-display: block;
-}
-
-#admin-menu-wrap ul li:before {
-content: "";
-width: 5px;
-height: 100%;
-background-color: #3D84A8;
-left: 0;
-position: absolute;
-display: none;
-}
-
-#admin-menu-wrap ul li:hover:before {
-display: block;
-}
 
 #admin-menu-wrap .new-project-button {
     border-radius: 25px;
