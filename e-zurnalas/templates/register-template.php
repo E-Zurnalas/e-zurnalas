@@ -23,7 +23,7 @@ get_header(); ?>
                     </p>
                     <input class="submit-btn" type="submit" name="login" value="<?php _e('Prisijungti', 'e-zurnalas'); ?>">
                     <p class="dont-have-acc"> <?php _e('Dar neturite paskyros?' , 'e-zurnalas'); ?>
-                        <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a>
+                        <a class="register-btn" href="#"><?php _e('Registruotis' , 'e-zurnalas'); ?></a> 
                     </p>
                     </p>
                 </form>
