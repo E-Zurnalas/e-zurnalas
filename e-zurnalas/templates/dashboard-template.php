@@ -9,7 +9,7 @@ get_header(); ?>
             <div id="admin-page-top-bar" class=""></div>
             <div id="admin-page-menu">
                 <div class="main-logo">
-                    <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg"; ?>" width="167" height="41" alt="">
+                    <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-panel.svg"; ?>" width="167" height="41" alt="">
                 </div>
                 <div class="new-project-wrap">
                 <button class="new-project-button"><?php _e('Naujas Projektas' , 'e-zurnalas'); ?></button>
