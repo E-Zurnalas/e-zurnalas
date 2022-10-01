@@ -6,7 +6,6 @@ get_header(); ?>
 <div class="login-section">
     <div class="second-box">
         <div class="login-container">
-            <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg"; ?>" width="240" height="60" alt="">
             <p class="welcome-text">
                 <?php _e('Sveikas sugrįžęs! Prašome prisijungti prie savo paskyros.' , 'e-zurnalas'); ?>
             </p>
@@ -26,7 +25,7 @@ get_header(); ?>
     </div>
 
     <div class="first-box">
-        <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-svg-white.svg"; ?>" width="240" height="60" alt="">
+        <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-svg-white2.svg"; ?>" width="240" height="60" alt="">
     </div>
 </div>
 
