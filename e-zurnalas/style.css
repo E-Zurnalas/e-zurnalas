@@ -999,8 +999,9 @@ justify-content: center;
     width: 470px;
 }
 
-.auth-logo-wrap, .auth-login-wrap{
+.auth-logo-wrap{
     width: 100%;
+    text-align: center;
 }
 
 .second-box {

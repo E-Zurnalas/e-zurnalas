@@ -27,8 +27,6 @@ get_header(); ?>
     <div class="first-box">
         <div class="auth-logo-wrap">
         <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo-white.svg"; ?>" width="240" height="60" alt="">
-        </div>
-        <div class="auth-login-wrap">
         <img class="login-auth" src="<?php echo get_template_directory_uri() . "/assets/images/auth.png"; ?>" alt="">
         </div>
     </div>
