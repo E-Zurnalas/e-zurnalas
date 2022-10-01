@@ -4,8 +4,6 @@
 get_header(); ?>
 
 <div class="login-section">
-    <div class="first-box">
-    </div>
     <div class="second-box">
         <div class="login-container">
             <img class="login-logo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg"; ?>" width="240" height="60" alt="">
@@ -25,6 +23,9 @@ get_header(); ?>
                 </p>
             </form>
         </div>
+    </div>
+
+    <div class="first-box">
     </div>
 </div>
 
