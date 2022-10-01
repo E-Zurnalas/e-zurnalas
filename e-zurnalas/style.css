@@ -569,7 +569,8 @@ input[type="submit"] {
     font-weight: 500;
     border: #0ca1f3;
     padding: 12px 55px;
-} 
+    cursor: pointer;
+}
 
 button:hover,
 input[type="button"]:hover,
